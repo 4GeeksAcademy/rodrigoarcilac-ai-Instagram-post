@@ -1,0 +1,125 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 24px;
+  background-color: #fafafa;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #1f1f1f;
+}
+
+.post {
+  width: 100%;
+  max-width: 420px;
+  background-color: #ffffff;
+  border: 1px solid #dbdbdb;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.post-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px;
+}
+
+.profile-picture {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: #000000;
+  border: 1px solid #000000;
+  display: block;
+}
+
+.user-meta {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  line-height: 1.2;
+}
+
+.user-name {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 700;
+  color: #262626;
+}
+
+.user-location {
+  margin: 2px 0 0;
+  font-size: 12px;
+  font-weight: 400;
+  color: #8e8e8e;
+}
+
+.post-image {
+  width: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+.post-actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px;
+}
+
+.actions-left {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.action-button {
+  border: none;
+  background: transparent;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  border-radius: 8px;
+  color: #262626;
+  cursor: pointer;
+}
+
+.action-button i {
+  font-size: 20px;
+}
+
+.action-button:hover {
+  background-color: #f2f2f2;
+}
+
+.likes-count {
+  margin: 0;
+  padding: 0 12px 8px;
+  font-size: 14px;
+  font-weight: 700;
+  color: #262626;
+}
+
+.post-caption {
+  margin: 0;
+  padding: 0 12px 14px;
+  font-size: 14px;
+  color: #262626;
+}
+
+.post-caption strong {
+  font-weight: 700;
+}
+
+.hashtags {
+  color: #0095f6;
+}
